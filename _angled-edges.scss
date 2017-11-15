@@ -4,7 +4,7 @@
 // $angle-position-bottom-x: The X position of the bottom angle if using 'both' for $angle-position-y: left | right
 // $color: Color of angled edge: Hex color
 
-@mixin angled-edge($angle, $angle-position-y, $angle-position-x, $color: #ffffff $angle-position-bottom-x: '') {
+@mixin angled-edge($angle, $angle-position-y, $angle-position-x, $color: #ffffff, $angle-position-bottom-x: '') {
 
   position: relative;
   overflow: hidden;
