@@ -14,7 +14,7 @@ Just import the partial and include it where needed.
 @import 'path/to/angled-edges';
 
 .here-i-need-an-angled-edge {
-  @include angle-edge($angle, $angle-position-y, $angle-position-x, $color, $angle-position-bottom-x);
+  @include angled-edge($angle, $angle-position-y, $angle-position-x, $color, $angle-position-bottom-x);
 }
 ```
 Where:
