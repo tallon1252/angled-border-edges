@@ -1,4 +1,4 @@
-# Angled Edges (SASS mixin)
+# Angled Border Edges (SASS mixin)
 
 Add a consistent angled edge to a full width element.
 This technique uses only border for angled edges in a pseudo-element.
@@ -23,4 +23,4 @@ $color: Color of angled edge: Hex color
 $angle-position-bottom-x: The X position of the bottom angle if using 'both' for $angle-position-y: left | right
 
 ### License
-MIT © Nigel O Toole
+MIT © Tim-Lars Schnehage
