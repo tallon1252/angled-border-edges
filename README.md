@@ -24,3 +24,5 @@ $angle-position-bottom-x: The X position of the bottom angle if using 'both' for
 
 ### License
 MIT © Tim-Lars Schnehage
+
+This is a fork of Nigel O Toole's Angled Edges, which uses only border for generating the angled edges.
