@@ -1,7 +1,5 @@
 # Angled Edges (SASS mixin)
 
-[Live demo](http://nigelotoole.github.io/angled-edges/)
-
 Add a consistent angled edge to a full width element.
 This technique uses only border for angled edges in a pseudo-element.
 It is only intended for use on full width elements as it uses the vw unit to calulate the angle.
