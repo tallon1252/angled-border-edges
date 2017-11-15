@@ -3,30 +3,26 @@
 [Live demo](http://nigelotoole.github.io/angled-edges/)
 
 Add a consistent angled edge to a full width element.
-This technique uses CSS clip-path to clip the image but has a fallback using pseudo elements for older browsers.
+This technique uses only border for angled edges in a pseudo-element.
 It is only intended for use on full width elements as it uses the vw unit to calulate the angle.
 
 
 ## Usage
 
-Once you have downloaded the code, run the commands below to view the demo.
+Just import the partial and include it where needed.
+```sass
+@import 'path/to/angled-edges';
 
-```javascript
-$ npm install
-$ gulp serve
+.here-i-need-an-angled-edge {
+  @include angle-edge($angle, $angle-position-y, $angle-position-x, $color, $angle-position-bottom-x);
+}
 ```
-
-You can also import **angled-edges.scss** into your own project directly and use the classes already setup or use the mixin in your own classes.
-
-
-Follow the code example below for basic usage with an angle on the top left.
-
-```html
-  <div class="angle--top-left">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Sig07-007.jpg/1280px-Sig07-007.jpg" alt="Nebula" class="angle__content">
-  </div>
-```
-
+Where:
+$angle: The angle in degrees: 1 - 45
+$angle-position-y: The Y position of the angle: top | bottom | both
+$angle-position-x: The X position of the angle: left | right
+$color: Color of angled edge: Hex color
+$angle-position-bottom-x: The X position of the bottom angle if using 'both' for $angle-position-y: left | right
 
 ### License
 MIT © Nigel O Toole
