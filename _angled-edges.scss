@@ -1,3 +1,4 @@
+
 // $angle: The angle in degrees: 1 - 45
 // $angle-position-y: The Y position of the angle: top | bottom | both
 // $angle-position-x: The X position of the angle: left | right
@@ -90,5 +91,5 @@
 
 // Converts degrees to VW, 100vw = 45deg using this technique
 @function convertDegToVW($angle){
-  @return round($angle*2.22);
+  @return $angle*2.22;
 }
